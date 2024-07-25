@@ -12,8 +12,18 @@ export default function Navbar() {
         <Image className="mr-2" src={logo} alt="logo" height={60} />
       </div>
       <div className="flex">
-        <NavItem href="/home" value="Home" />
-        <NavItem href="/live" value="Live" />
+        <NavItem
+          href="/home"
+          value="Home"
+          borderColor="border-teal-500"
+          hover="hover:bg-cyan-500"
+        />
+        <NavItem
+          href="/live"
+          value="Live"
+          borderColor="border-red-700"
+          hover="hover:bg-red-800"
+        />
         <UserAvatar />
       </div>
     </div>
