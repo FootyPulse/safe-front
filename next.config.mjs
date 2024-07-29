@@ -8,6 +8,12 @@ const nextConfig = {
         port: "",
         pathname: "/afl/**/**",
       },
+      {
+        protocol: "https",
+        hostname: "github.com",
+        port: "",
+        pathname: "/**/**",
+      },
     ],
   },
 };
