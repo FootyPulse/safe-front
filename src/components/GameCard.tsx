@@ -11,7 +11,7 @@ export default function GameCard({
   awayTeamLogo,
 }: GameCardProps) {
   return (
-    <div className="flex flex-col items-center border-2 mt-4 p-5">
+    <div className="flex flex-col items-center border-2 mt-4 p-5 h-96 rounded-lg">
       <p>{venue}</p>
       <div className="flex items-center mt-3">
         <Image
