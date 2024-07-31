@@ -4,7 +4,7 @@ declare namespace FootyPulse {
     content: string;
     user: {
       username: string;
-      userProfile: string | undefined;
+      userProfile: string | null;
     };
     likeCount: number;
     commentCount: number;
