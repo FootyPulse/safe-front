@@ -1,6 +1,6 @@
 export function getFirstAndLastChar(s: string): [string, string] {
   if (s.length === 0) {
-    return ["", ""]; // Handle empty string
+    return ["", ""];
   }
 
   const first = s[0];
