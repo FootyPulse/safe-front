@@ -32,7 +32,7 @@ export const DUMMY_POSTS = [
     content: "Team was terrible today, what a shocking coaching performance",
     user: {
       username: "bombers_supporter1",
-      userProfile: null,
+      userProfile: undefined,
     },
     likeCount: 12,
     commentCount: 20,
