@@ -15,9 +15,7 @@ export default function NavItem({ href, value, hover, borderColor }: navitem) {
       className={`${borderColor} mr-2 w-24 ${hover} rounded-lg border-2 text-slate-600`}
       asChild
     >
-      <Link className=" text-slate-600" href={href}>
-        {value}
-      </Link>
+      <Link href={href}>{value}</Link>
     </Button>
   );
 }
