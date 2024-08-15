@@ -53,4 +53,31 @@ export const DUMMY_POSTS = [
     updatedAt: Date.now(),
     likedByCurrentUser: false,
   },
+  {
+    id: 5,
+    content: "What a joke",
+    user: {
+      username: "coolSupporter123",
+      userProfile: "https://github.com/shadcn.png",
+    },
+    likeCount: 123,
+    commentCount: 20,
+    createdAt: Date.now(),
+    updatedAt: Date.now(),
+    likedByCurrentUser: true,
+  },
+  {
+    id: 6,
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    user: {
+      username: "coolSupporter123",
+      userProfile: "https://github.com/shadcn.png",
+    },
+    likeCount: 123,
+    commentCount: 20,
+    createdAt: Date.now(),
+    updatedAt: Date.now(),
+    likedByCurrentUser: true,
+  },
 ];
