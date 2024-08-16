@@ -80,4 +80,18 @@ export const DUMMY_POSTS = [
     updatedAt: Date.now(),
     likedByCurrentUser: true,
   },
+  {
+    id: 7,
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    user: {
+      username: "coolSupporter123",
+      userProfile: "https://github.com/shadcn.png",
+    },
+    likeCount: 13,
+    commentCount: 20,
+    createdAt: Date.now(),
+    updatedAt: Date.now(),
+    likedByCurrentUser: true,
+  },
 ];
